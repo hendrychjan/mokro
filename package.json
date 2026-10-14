@@ -1,0 +1,10 @@
+{
+  "name": "mokro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter @mokro/shared build && pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm --filter @mokro/shared build && pnpm -r typecheck"
+  }
+}
